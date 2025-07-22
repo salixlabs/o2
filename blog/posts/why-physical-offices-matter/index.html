@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Physical Offices Matter - OfficeTwo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../css/blog.css">
+</head>
+<body>
+    <div id="site-header"></div>
+
+    <main class="blog-main">
+        <article class="blog-post">
+            <div class="blog-meta">
+                <time>January 20, 2024</time> • OfficeTwo Team
+            </div>
+            
+            <h1>Why Physical Offices Matter—Especially for International Teams</h1>
+
+            <p>At OfficeTwo, we're building something a little different. We believe international hiring works best when it doesn't feel remote.</p>
+
+            <p>Too often, overseas employees are hired as "virtual assistants"—isolated behind a laptop, far from the team they're supposed to support. They get tasks, but not context. They're included on Zoom, but left out of real conversations. And when problems inevitably come up—technical, operational, cultural—they're expected to figure it out alone.</p>
+
+            <p>That model doesn't work, especially for higher-level roles.</p>
+
+            <h2>The Power of Physical Connection</h2>
+
+            <p>We've seen firsthand how much better things go when people work side by side. Even one or two days a week in a physical office can make all the difference. At OfficeTwo, our team in Buenos Aires works together. That means:</p>
+
+            <ul>
+                <li>Faster onboarding</li>
+                <li>More effective training</li>
+                <li>Real-time problem solving</li>
+                <li>The chance to feel like a full member of the team</li>
+            </ul>
+
+            <p>This is how we make it possible to hire not just entry-level workers abroad, but mid-level and senior talent too. Because when employees are supported in-person, they're empowered to take ownership, grow in their roles, and contribute at a much higher level.</p>
+
+            <h2>Our Philosophy</h2>
+
+            <p>We're not anti-remote. We're pro-connection.</p>
+
+            <p>And when international employees are connected—in person to each other, and virtually to the U.S. teams they support—everyone wins.</p>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>OfficeTwo</h4>
+                <p>Top talent, real offices, full support — your second office in Argentina.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><a href="mailto:info@officetwo.com">info@officetwo.com</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/@OfficeTwoBA" target="_blank">YouTube</a>
+                    <a href="https://x.com/OfficeTwoBA" target="_blank">X</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2025 OfficeTwo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../../../js/main.js"></script>
+    <script>
+        fetch('/partials/header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('site-header').innerHTML = data;
+            if (typeof initMobileNavToggle === 'function') {
+              initMobileNavToggle();
+            }
+          });
+    </script>
+</body>
+</html> 

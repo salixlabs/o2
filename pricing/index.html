@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OfficeTwo Pricing - Build Your Team in Buenos Aires</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div id="site-header"></div>
+    <script>
+        fetch('/partials/header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('site-header').innerHTML = data;
+            if (typeof initMobileNavToggle === 'function') {
+              initMobileNavToggle();
+            }
+          });
+    </script>
+
+    <div class="hero-wrapper">
+        <div class="hero">
+            <h1>Simple, Transparent Pricing — Built to Scale With Your Team</h1>
+            <p class="p1">From sourcing to retention, we handle the details—so you can focus on growth.</p>
+        </div>
+    </div>
+
+    <main class="pricing-main">
+        <section class="pricing-plans">
+            <div class="plan-card full-service">
+                <div class="plan-header">
+                    <h2>Monthly Full-Service</h2>
+                    <div class="price">
+                        <div class="price-main">
+                            <span class="currency">$</span>
+                            <span class="amount">1,000</span>
+                        </div>
+                        <div class="period">per employee per month</div>
+                    </div>
+                    <div class="plan-details">
+                        <div class="best-for">
+                            <h3>Best for</h3>
+                            <p>Long-term teams building a second office</p>
+                        </div>
+                        <div class="team-size">
+                            <h3>Team Size</h3>
+                            <p>Any size</p>
+                        </div>
+                        <div class="workspace">
+                            <h3>Workspace</h3>
+                            <p>Office space, hardware, payroll, ongoing support</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2EV4apkqKge60YgDrj2V7n56gxwNEy2yXWefVfPuiie42bTJWl2EXr4H_3P9-g2hgYaQ3dljOU?gv=true" class="get-started-button" target="_blank">Get started</a>
+            </div>
+
+            <div class="plan-card one-time">
+                <div class="plan-header">
+                    <h2>One-Time Placement</h2>
+                    <div class="price">
+                        <div class="price-main">
+                            <span class="currency">$</span>
+                            <span class="amount">12,000</span>
+                        </div>
+                        <div class="period">one-time fee</div>
+                    </div>
+                    <div class="plan-details">
+                        <div class="best-for">
+                            <h3>Best for</h3>
+                            <p>Businesses preferring to manage payroll, workspace, and equipment on their own</p>
+                        </div>
+                        <div class="team-size">
+                            <h3>Team Size</h3>
+                            <p>Any size</p>
+                        </div>
+                        <div class="workspace">
+                            <h3>Workspace</h3>
+                            <p>Sourcing and vetting only (you take it from there)</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2EV4apkqKge60YgDrj2V7n56gxwNEy2yXWefVfPuiie42bTJWl2EXr4H_3P9-g2hgYaQ3dljOU?gv=true" class="get-started-button" target="_blank">Get started</a>
+            </div>
+
+            <div class="plan-card managed">
+                <div class="plan-header">
+                    <h2>Managed Services</h2>
+                    <div class="price">
+                        <div class="price-main">
+                            <span class="contact-text">Contact Us</span>
+                        </div>
+                        <div class="period">Hourly rate, based on active project needs</div>
+                    </div>
+                    <div class="plan-details">
+                        <div class="best-for">
+                            <h3>Best for</h3>
+                            <p>Short-term projects or highly customized team needs</p>
+                        </div>
+                        <div class="team-size">
+                            <h3>Team Model</h3>
+                            <p>OfficeTwo supplies and manages the workforce</p>
+                        </div>
+                        <div class="workspace">
+                            <h3>Workspace</h3>
+                            <p>Office-based consultants in Buenos Aires</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2EV4apkqKge60YgDrj2V7n56gxwNEy2yXWefVfPuiie42bTJWl2EXr4H_3P9-g2hgYaQ3dljOU?gv=true" class="get-started-button" target="_blank">Contact Us</a>
+            </div>
+        </section>
+
+        <div class="pricing-note">
+            <p>Note: The listed price is OfficeTwo's monthly service fee per employee. Employee salaries are additional and set by you based on role and experience. We manage payroll, HR, and compliance on your behalf, and you pay one combined monthly invoice.</p>
+        </div>
+
+        <section class="all-features">
+            <h2>What's Included in Every Plan</h2>
+            
+            <div class="features-list">
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Talent sourcing and candidate screening</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Culture Index personality testing</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>UCAT intelligence testing</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Resume and experience vetting</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Interview coordination and support</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Offer and hiring support</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Initial onboarding assistance</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Physical office workspace access</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>External monitors, keyboards, mice, and accessories</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>High-speed internet connection</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Office management and IT support</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Training support and materials setup</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Complete payroll, tax, and compliance management — fully handled by OfficeTwo</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Ongoing employee engagement support</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Regular team-building events and activities</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Employee recognition programs and culture-building support</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Access to a strong, positive workplace culture</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Dedicated account manager</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Employee retention strategies and support</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Salary guideline consulting and compensation planning support</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Replacement guarantee if an employee leaves</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Full payroll management — we pay your employees on your behalf, bundled in a single monthly invoice</span>
+                </div>
+                <div class="feature-item">
+                    <svg class="checkmark" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                    <span>Laptop and device provisioning — MacBooks for Apple-based teams, or high-performance Windows laptops as needed</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>OfficeTwo</h4>
+                <p>Top talent, real offices, full support — your second office in Argentina.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><a href="mailto:info@officetwo.com">info@officetwo.com</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Socials</h4>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/@OfficeTwoBA" target="_blank">YouTube</a>
+                    <a href="https://x.com/OfficeTwoBA" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2025 OfficeTwo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // Billing toggle functionality
+        const billingToggle = document.getElementById('billingToggle');
+        const prices = {
+            starter: { monthly: 1249, annual: 999 },
+            professional: { monthly: 1899, annual: 1499 }
+        };
+
+        billingToggle.addEventListener('change', function() {
+            const isAnnual = this.checked;
+            const starterPrice = document.querySelector('.starter .amount');
+            const professionalPrice = document.querySelector('.professional .amount');
+            const billingLabels = document.querySelectorAll('.billing-label');
+
+            starterPrice.textContent = isAnnual ? prices.starter.annual : prices.starter.monthly;
+            professionalPrice.textContent = isAnnual ? prices.professional.annual : prices.professional.monthly;
+
+            billingLabels.forEach(label => {
+                label.textContent = isAnnual ? 'Billed Annually' : 'Billed Monthly';
+            });
+        });
+    </script>
+</body>
+</html> 
