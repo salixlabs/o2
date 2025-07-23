@@ -1,37 +1,47 @@
-This is a simple MVP go-to-market website for a new company called "OfficeTwo". The domain is https://officetwo.com.
+# Astro Starter Kit: Minimal
 
-Tagline should be "We help companies build their second office in Buenos Aires"
+```sh
+npm create astro@latest -- --template minimal
+```
 
-OfficeTwo is a company that sources talent from Buenos Aires to work remotely for companies in the US. Beyond simply sourcing talent, we also provide a physical office space for the talent to work in, which is fully-equipped with the latest technology and tools. We also provide a range of other services which are all included, such as onboarding, training, tech support, technology hardware, help with compliance and taxes, ongoing account management, and more. We are your HR department for your second office in Buenos Aires. 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-Rather than hiring a virtual assistant somewhere on the other side of the world, you can hire highly talented people who will be full team members in your company. Because the approach is much more similar to hiring a second office locally in the USA, we can hire positions that are typically only found by hiring domestically, including mid-level and senior positions that require problem solving skills, creativity, and more. We can hire all sorts of back-office positions, including entry-level roles such as a CSR team and data entry, as well as more senior roles such as a Customer Success Managers, Product Managers, Project Managers, Sales Managers, and more. 
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-The homepage should be a simple landing page that explains the concept of OfficeTwo and the benefits of hiring through us. It should mimic modern SAAS landing pages and be modern and clean.
+## 🚀 Project Structure
 
-We should also have a blog section where we can post blogs and FAQ articles, and we should setup the site from the beginning to use the same design and formatting for all the blog pages. It should be simple for us to add new blog posts without having to rewrite the style sheet.
+Inside of your Astro project, you'll see the following folders and files:
 
-Other Notes:
-- whenever possible, we should keep things as simple as possible.
-- use vanilla JavaScript and CSS for better performance and simplicity
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-Tech Stack:
-- HTML
-- CSS (vanilla)
-- JavaScript (vanilla)
-- Markdown for blog posts
-- Simple Google Calendar integration for meetings
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-To Do:
-[] Create basic HTML structure for all pages
-[] Style the site with vanilla CSS
-[] Add JavaScript functionality for testimonial carousel
-[] Setup blog with markdown parsing
-[] Add Google Calendar integration for scheduling meetings
-[] Create mobile-responsive navigation menu
-[] Add contact form with simple form submission
-[] Setup blog post template
-[] Add testimonials section
-[] Create benefits/features section
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
+Any static assets, like images, can be placed in the `public/` directory.
 
+## 🧞 Commands
 
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
