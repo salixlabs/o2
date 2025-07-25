@@ -1,15 +1,23 @@
 ---
-import "../styles/global.css";
+import Hero from "../components/Hero.astro"
+import Layout from "../layouts/Layout.astro"
+import Features from "../components/Features.astro"
+import PainPoints from "../components/PainPoints.astro"
+import Video from "../components/Video.astro"
+import Steps from "../components/Steps.astro"
+import WhyBA from  "../components/WhyBA.astro"
+import Testimonials from  "../components/Testimonials.astro"
+import Benefits from  "../components/Benefits.astro"
+import Contact from  "../components/Contact.astro"
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-	</body>
-</html>
+<Layout>
+	<Hero />
+	<Features />
+	<PainPoints />
+	<Video />
+	<Steps />
+	<WhyBA />
+	<Testimonials />
+	<Benefits />
+	<Contact />
+</Layout>
