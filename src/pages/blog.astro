@@ -1,0 +1,13 @@
+---
+import { getCollection } from 'astro:content';
+import BlogHero from '../components/Blog/BlogHero.astro';
+import BlogGrid from '../components/Blog/BlogGrid.astro';
+import Layout from '../layouts/Layout.astro';
+
+const posts = await getCollection('blog');
+---
+
+<Layout>
+ <BlogHero />
+ <BlogGrid posts={posts} />
+</Layout>

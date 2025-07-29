@@ -1,0 +1,14 @@
+---
+import { getEntryBySlug } from 'astro:content';
+import Layout from '../../layouts/BlogPost.astro';
+
+const { slug } = Astro.params;
+const post = await getEntryBySlug('blog', slug);
+
+if (!post) throw new Error(`Post no encontrado: ${slug}`);
+const { Content, data } = post;
+---
+
+<Layout {...data}>
+  <Content />
+</Layout>

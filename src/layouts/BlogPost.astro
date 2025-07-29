@@ -1,0 +1,10 @@
+---
+const { title, date, author, excerpt } = Astro.props;
+---
+
+<article class="prose mx-auto px-4 py-8">
+  <h1>{title}</h1>
+  <p class="text-sm text-gray-500">Por {author} — {new Date(date).toLocaleDateString()}</p>
+  <p class="text-lg italic text-gray-600">{excerpt}</p>
+  <slot />
+</article>
