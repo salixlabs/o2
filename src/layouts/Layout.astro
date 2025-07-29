@@ -3,6 +3,9 @@ import '../styles/global.css';
 const { pageTitle = "OfficeTwo" } = Astro.props
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import Clarity from '@microsoft/clarity';
+const projectId = "yourProjectId"
+Clarity.init(projectId);
 ---
 <html lang="en">
   <head>
