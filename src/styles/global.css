@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @theme{
     --color-dark-blue: #151F28;
     --color-text-gray: #F8F8F8;
-    --font-o2font: "Poppins", ui-sans-serif;
     --color-gold:#D4AF37;
     --color-light-blue: #ADD8E6;
 }
