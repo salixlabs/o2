@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/BlogPost.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const posts = await getCollection('blog');
+const post = posts.find((p) => p.slug === slug);
+
+if (!post) throw new Error(`Post not found for slug: ${slug}`);
+
+const { Content } = await post.render(); // ✅ ESTA ES LA CLAVE
+---
+
+<Layout title={post.data.title}>
+  <article class="max-w-3xl mx-auto px-4 py-8">
+    <div class="markdown-content">
+      <Content />
+    </div>
+  </article>
+</Layout>

@@ -1,0 +1,84 @@
+<header class="bg-dark-blue fixed w-full top-0 z-10 shadow-md text-white">
+    <nav class="flex top-0 flex-row items-center justify-between px-8 py-4">
+        <a href="/" class="flex flex-row items-center">
+            <img class="h-[60px] w-auto block" src="/logocolor.png" alt="OfficeTwo logo">
+            <span>OfficeTwo</span>
+        </a>
+        <ul class="hidden md:flex flex-row gap-2 items-center">
+            <li><a href="/pricing/" class="block py-3 px-4 text-white font-medium">Pricing</a></li>
+            <li><a href="/faq/" class="block py-3 px-4 text-white font-medium">FAQ</a></li>
+            <li><a href="/blog/" class="block py-3 px-4 text-white font-medium">Resources</a></li>
+            <li><a href="https://calendar.google.com/..." target="_blank" class="bg-gold font-semibold text-dark-blue py-3 px-6 rounded-xl ml-2">Schedule a Call</a></li>
+        </ul>
+        <button
+        id="menu-toggle"
+        class="md:hidden flex items-center justify-center p-2 rounded-lg bg-transparent border-none focus:outline-none focus:ring-2 focus:ring-gold"
+        aria-label="Abrir menú"
+        type="button"
+        >
+            <svg id="icon-hamburger" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z" />
+            </svg>
+            <svg id="icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path stroke="currentColor" stroke-width="2" d="M6 6l12 12M6 18L18 6"/>
+            </svg>
+        </button>
+    </nav>
+    <ul
+    id="mobile-menu"
+    class="fixed left-0 right-0 top-[72px] bg-dark-blue flex flex-col items-center justify-center p-6 shadow-lg md:hidden hidden transition-all duration-300 ease-in-out transform -translate-y-4 opacity-0"
+    >
+        <li><a href="/pricing/" class="block py-3 text-white font-medium w-full">Pricing</a></li>
+        <li><a href="/faq/" class="block py-3 text-white font-medium w-full">FAQ</a></li>
+        <li><a href="/blog/" class="block py-3 text-white font-medium w-full">Resources</a></li>
+        <button class="bg-gold font-semibold text-dark-blue bg-gold py-3 px-6 rounded-xl">Schedule a Call</button>
+    </ul>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const toggleBtn = document.getElementById('menu-toggle');
+          const menu = document.getElementById('mobile-menu');
+          const iconHamburger = document.getElementById('icon-hamburger');
+          const iconClose = document.getElementById('icon-close');
+          let isOpen = false;
+    
+          toggleBtn.addEventListener('click', function() {
+            isOpen = !isOpen;
+            if (!menu) return;
+            if (isOpen) {
+              menu.classList.remove('hidden');
+              setTimeout(() => {
+                if (!menu) return;
+                menu.classList.remove('-translate-y-4', 'opacity-0');
+                menu.classList.add('translate-y-0', 'opacity-100');
+              }, 10);
+            } else {
+              menu.classList.remove('translate-y-0', 'opacity-100');
+              menu.classList.add('-translate-y-4', 'opacity-0');
+              setTimeout(() => {
+                if (!menu) return;
+                menu.classList.add('hidden');
+              }, 300);
+            }
+            iconHamburger.classList.toggle('hidden');
+            iconClose.classList.toggle('hidden');
+            toggleBtn.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+          });
+    
+          document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+              isOpen = false;
+              if (!menu) return;
+              menu.classList.remove('translate-y-0', 'opacity-100');
+              menu.classList.add('-translate-y-4', 'opacity-0');
+              setTimeout(() => {
+                if (!menu) return;
+                menu.classList.add('hidden');
+              }, 300);
+              iconHamburger.classList.remove('hidden');
+              iconClose.classList.add('hidden');
+              toggleBtn.setAttribute('aria-label', 'Abrir menú');
+            });
+          });
+        });
+      </script>
+</header>

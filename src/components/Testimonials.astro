@@ -1,0 +1,104 @@
+---
+const testimonials = [
+    {
+        content: "OfficeTwo has helped us build a stronger, more affordable team. Their support in hiring and managing our Buenos Aires office has been invaluable to our growth.",
+        author: "Erik Trefzger",
+        role: "Owner",
+        company: "Orca Roofing & Exteriors"
+    },
+    {
+        content: "OfficeTwo has transformed how we operate. Their team in Buenos Aires integrated seamlessly with our existing workflow, bringing fresh perspectives and exceptional talent.",
+        author: "Sarah Chen",
+        role: "CTO",
+        company: "TechFlow Solutions"
+    },
+    {
+        content: "The quality of service from our Argentina team is exceptional. They handle our client communications and property management tasks with the same high standards we expect in our U.S. offices.",
+        author: "Jennifer Martinez",
+        role: "Managing Director",
+        company: "Elite Property Group"
+    },
+    {
+        content: "We were hesitant about moving key administrative functions overseas, but OfficeTwo's team has exceeded expectations. Their attention to detail and professional communication is outstanding.",
+        author: "David Cohen",
+        role: "Partner",
+        company: "Cohen & Associates Law"
+    },
+    {
+        content: "As our company scaled rapidly, OfficeTwo helped us build a development and support team that could keep pace. The talent pool in Buenos Aires is incredible, and the time zone alignment makes collaboration seamless.",
+        author: "Robert Torres",
+        role: "Founder",
+        company: "Torres Insurance Group"
+    },
+    {
+        content: "The operational improvements since bringing on our Buenos Aires team have been remarkable. They've streamlined our processes and found creative solutions to long-standing challenges.",
+        author: "Lisa Parker",
+        role: "Operations Director",
+        company: "Meridian Property Management"
+    }
+];
+const testimonialsJson = JSON.stringify(testimonials);
+---
+<section class="w-full py-20 bg-background">
+  <div class="max-w-[1200px] mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-dark-blue text-center mb-12">
+      What Our Clients Say
+    </h2>
+    <div 
+      class="relative flex flex-row items-center justify-between gap-8"
+      id="testimonial-carousel"
+      data-testimonials={testimonialsJson}
+    >
+      <!-- Botón Previous -->
+      <button
+        id="testimonial-prev"
+        class="bg-transparent border-none text-dark-blue text-3xl px-4 py-2 opacity-60 hover:opacity-100 transition focus:outline-none focus:ring-2 focus:ring-gold rounded"
+        aria-label="Previous testimonial">
+        &#8592;
+      </button>
+      <!-- Testimonial -->
+      <div class="flex-1 text-center max-w-[800px] mx-auto">
+        <div id="testimonial-content" class="italic text-2xl leading-relaxed text-dark-blue mb-8">
+          "{testimonials[0].content}"
+        </div>
+        <div class="flex flex-col items-center gap-1">
+          <div id="testimonial-author" class="font-semibold text-lg text-dark-blue">{testimonials[0].author}</div>
+          <div id="testimonial-role" class="text-base text-text-light">{testimonials[0].role}</div>
+          <div id="testimonial-company" class="text-base text-text-light">{testimonials[0].company}</div>
+        </div>
+      </div>
+      <!-- Botón Next -->
+      <button
+        id="testimonial-next"
+        class="bg-transparent border-none text-dark-blue text-3xl px-4 py-2 opacity-60 hover:opacity-100 transition focus:outline-none focus:ring-2 focus:ring-gold rounded"
+        aria-label="Next testimonial">
+        &#8594;
+      </button>
+    </div>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function () {
+        const carousel = document.getElementById('testimonial-carousel');
+        const testimonials = JSON.parse(carousel.getAttribute('data-testimonials'));
+        let current = 0;
+        const content = document.getElementById('testimonial-content');
+        const author = document.getElementById('testimonial-author');
+        const role = document.getElementById('testimonial-role');
+        const company = document.getElementById('testimonial-company');
+        document.getElementById('testimonial-prev').onclick = function() {
+          current = (current - 1 + testimonials.length) % testimonials.length;
+          updateTestimonial();
+        };
+        document.getElementById('testimonial-next').onclick = function() {
+          current = (current + 1) % testimonials.length;
+          updateTestimonial();
+        };
+        function updateTestimonial() {
+          content.textContent = '"' + testimonials[current].content + '"';
+          author.textContent = testimonials[current].author;
+          role.textContent = testimonials[current].role;
+          company.textContent = testimonials[current].company;
+        }
+      });
+    </script>
+  </div>
+</section>
