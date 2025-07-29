@@ -20,22 +20,8 @@ const { Content } = await post.render(); // ✅ ESTA ES LA CLAVE
 
 <Layout title={post.data.title}>
   <article class="max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-2">{post.data.title}</h1>
-    <p class="text-sm text-gray-500 mb-4">
-      {post.data.date} — {post.data.author}
-    </p>
-
-    <div class="prose prose-neutral">
+    <div class="markdown-content">
       <Content />
-      <div class="prose prose-neutral">
-        <Content />
-      
-        <h2>Heading test</h2>
-        <ul>
-          <li>Uno</li>
-          <li>Dos</li>
-        </ul>
-      </div>
     </div>
   </article>
 </Layout>
