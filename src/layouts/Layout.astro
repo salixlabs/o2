@@ -3,9 +3,15 @@ import '../styles/global.css';
 const { pageTitle = "OfficeTwo" } = Astro.props
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+const isContact = Astro.url.pathname === '/contact-us/';
 ---
 <html lang="en">
   <head>
+    {isContact && (
+      <Fragment set:html={`<script type="text/javascript">
+        twq('event', 'tw-q8ozt-q8ozv', {});
+      </script>`} />
+    )}
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
