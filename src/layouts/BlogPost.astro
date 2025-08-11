@@ -1,7 +1,14 @@
 ---
-import Layout from './Layout.astro'; // tu layout principal
-const { title, excerpt } = Astro.props;
+import Layout from './Layout.astro';
+import { SEO } from 'astro-seo';
+const { title, excerpt} = Astro.props;
 ---
+
+<SEO
+  title={title}
+  description={excerpt}
+  canonical={`https://www.officetwo.com${Astro.url.pathname}`}
+/>
 
 <Layout pageTitle={title}>
   <article class="prose mx-auto px-4 py-8 mt-20">
