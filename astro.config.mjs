@@ -6,6 +6,7 @@ import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://salixlabs.github.io/officetwo/',
   adapter: node({ mode: "standalone" }),
   output: 'server',
   server: {
