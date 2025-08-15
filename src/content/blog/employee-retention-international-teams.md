@@ -15,7 +15,7 @@ At OfficeTwo, we go beyond hiring: we create environments where people stay, gro
 
 ## The Challenge of Retaining Remote International Talent
 
-Hiring globally opens the door to top talent, but retaining international employees requires a thoughtful strategy. For remote and hybrid teams, retention goes far beyond compensation—it’s about culture, development, and day-to-day support.  
+Hiring globally opens the door to top talent, but retaining international employees requires a thoughtful strategy. For remote and hybrid teams, retentiosn goes far beyond compensation—it’s about culture, development, and day-to-day support.  
 
 Without the right systems in place, turnover can quickly become a costly problem.
 

@@ -30,7 +30,7 @@ For many U.S. companies, the biggest obstacle to setting up a team in Argentina 
 
 With OfficeTwo, that’s no longer necessary. We eliminate the need for incorporation, entity registration, or legal setup—so you can start hiring quickly and compliantly without local infrastructure.  
 
-👉 Learn more about [navigating Argentine labor laws](#) to stay compliant from day one.
+👉 Learn more about [navigating Argentine labor laws](https://www.officetwo.com/blog/navigating-argentine-labor-laws) to stay compliant from day one.
 
 ## Argentina Team Setup: Payroll, Benefits, and Compliance Included
 
@@ -57,7 +57,7 @@ Your team enjoys:
 - Daily in-person support from our on-site HR and IT teams  
 - A sense of community that improves retention and morale  
 
-👉 Want to see how we support long-term team success? Read about our [employee retention strategies](#).
+👉 Want to see how we support long-term team success? Read about our [employee retention strategies](https://www.officetwo.com/blog/employee-retention-international-teams).
 
 ## Why Set Up a Team in Argentina with OfficeTwo?
 
@@ -65,7 +65,7 @@ We make setting up your Argentina team easy, fast, and fully compliant. You don�
 
 We’ve already done the work—so you can focus on growth, not logistics.
 
-👉 Want to understand the value? Explore the [real cost advantage](#) of hiring in Buenos Aires vs. the U.S.
+👉 Want to understand the value? Explore the [real cost advantage](https://www.officetwo.com/blog/hire-tech-talent-why-argentina) of hiring in Buenos Aires vs. the U.S.
 
 ## Ready to Set Up Your Argentina Team?
 

@@ -91,7 +91,7 @@ Plan in-person team meetings, social events, or skill-building days in the offic
 ### Collect Continuous Feedback
 Use surveys and check-ins to understand what’s working—and adjust as needed.
 
-👉 Explore how our full-service support model helps leaders manage infrastructure, compliance, and culture across hybrid teams.
+👉 [Explore how our full-service support model helps leaders manage infrastructure, compliance, and culture across hybrid teams](https://www.officetwo.com/blog/why-office-two-full-service-support-makes-the-difference)
 
 ## Hybrid vs Remote Work Models: Impact on Engagement
 
@@ -101,7 +101,7 @@ When managed effectively, hybrid work models boost engagement by offering both f
 ### Is Hybrid the Same as Remote Work?
 No. Hybrid includes both remote and on-site elements. Fully remote work means no mandatory office time. The **hybrid work model** offers a middle ground—balanced, flexible, and supportive.
 
-👉 [Learn more about hybrid vs remote work](#)
+👉 [Learn more about hybrid vs remote work](https://www.officetwo.com/blog/hybrid-vs-remote-work)
 
 ## Office Two’s Hybrid Work Model in Practice
 
@@ -118,3 +118,4 @@ Our **hybrid work model** support ties in naturally with other strategies like [
 Adopting a hybrid work model can boost productivity, retention, and global collaboration—especially when hiring internationally. With clear plans, supportive infrastructure, and strategic in-person days, hybrid work helps teams perform at scale.
 
 👉 **Interested in building a hybrid work model for your international team? [Let’s talk](https://www.officetwo.com/contact-us/)  about how Office Two can support your growth and operational efficiency.**
+

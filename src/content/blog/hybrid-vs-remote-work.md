@@ -38,7 +38,7 @@ When evaluating **hybrid vs remote work**, consider these key advantages and dra
 - In-person scheduling can be more complex  
 - May not suit fully distributed teams  
 
-🔗 [Learn how a full-service support model simplifies hybrid operations for U.S. companies](#)
+🔗 [Learn how a full-service support model simplifies hybrid operations for U.S. companies](https://www.officetwo.com/blog/why-office-two-full-service-support-makes-the-difference)
 
 ### Pros of Remote Work
 - Broad access to global talent  
@@ -63,7 +63,7 @@ If your international team is based in one region—like Buenos Aires—a hybrid
 ### Do You Have the Tools to Support Your Model?
 Both hybrid and remote teams require intentional structure. With Office Two, you get full operational support—HR, IT, payroll, office space—no matter the model.
 
-🔗 [If you're unsure whether a VA is enough, see why businesses are moving beyond virtual assistants](#)
+🔗 [If you're unsure whether a VA is enough, see why businesses are moving beyond virtual assistants](https://www.officetwo.com/blog/dedicated-development-team-vs-virtual-assistants)
 
 ### What Do Your Employees Prefer?
 Today’s talent values flexibility, but also craves connection. Hybrid models allow your team to work remotely without losing the benefits of real-world collaboration.

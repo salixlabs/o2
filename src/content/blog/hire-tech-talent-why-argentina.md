@@ -88,8 +88,8 @@ These strengths reduce friction and allow teams to work as if they’re in the s
 
 **Related Posts:**
 
-- [Learn why time zone alignment matters when you hire tech talent](https://www.officetwo.com/blog/posts/time-zone-alignment-argentina/)  
-- [See why bilingual teams are key to hiring global tech talent](https://www.officetwo.com/blog/posts/building-bilingual-team-buenos-aires/)  
+- [Learn why time zone alignment matters when you hire tech talent](https://www.officetwo.com/blog/time-zone-alignment-argentina)  
+- [See why bilingual teams are key to hiring global tech talent](https://www.officetwo.com/blog/building-bilingual-team-buenos-aires)  
 
 ## Cost-Effective Without Sacrificing Quality
 
