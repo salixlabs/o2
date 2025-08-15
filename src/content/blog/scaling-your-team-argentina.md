@@ -5,6 +5,8 @@ author: "OfficeTwo Team"
 excerpt: "Learn how to scale your team in Argentina—whether you're starting with one hire or building a full department. Discover flexible, compliant solutions to grow efficiently."
 ---
 
+![Scale Your Team in Argentina: From First Hire to Full Department](/images/scaling-your-team-argentina.jpg)
+
 # Scale Your Team in Argentina: From First Hire to Full Department
 
 Grow at your own pace with a proven model that balances flexibility, quality, and cultural integration—right from Buenos Aires.

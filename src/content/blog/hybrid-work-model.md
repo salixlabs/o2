@@ -5,6 +5,8 @@ author: "OfficeTwo Team"
 excerpt: "Discover what a hybrid work model is, explore the four common types, and learn how Office Two supports international teams with hybrid structures in Argentina."
 ---
 
+![Hybrid vs Remote Work: Which Model Works Best for Global Teams?](/images/hybrid-work-model.jpg)
+
 # Hybrid Work Model: The Future of Global Team Collaboration
 
 In today’s flexible landscape, understanding the **hybrid work model** is essential—especially for companies building international teams. A hybrid work model blends remote, in-office, and on-the-go work, striking the perfect balance between collaboration and flexibility.  

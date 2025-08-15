@@ -5,6 +5,9 @@ author: "OfficeTwo Team"
 excerpt: "Understand Argentine labor laws and see how Office Two handles compliance, payroll, and hiring models so you can scale with confidence."
 ---
 
+![Navigating Argentine Labor Laws: What U.S. Companies Need to Know](/images/navigating-argentine-labor-laws.jpg)
+
+
 # Navigating Argentine Labor Laws: What U.S. Companies Need to Know
 
 Expanding into Argentina offers access to highly skilled talent—but understanding local employment regulations can feel overwhelming.  

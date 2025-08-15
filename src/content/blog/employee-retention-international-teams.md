@@ -5,6 +5,8 @@ author: "OfficeTwo Team"
 excerpt: "Discover how to improve employee retention in international teams. Learn how OfficeTwo builds global teams that stay engaged, loyal, and high-performing."
 ---
 
+![Employee Retention Strategies for International Teams](/images/employee-retention-international-teams.jpg)
+
 # Employee Retention Strategies for International Teams
 
 Building a high-performing global workforce is only the beginning. If you want to maintain momentum, you need strong employee retention strategies—especially when managing international remote teams.  

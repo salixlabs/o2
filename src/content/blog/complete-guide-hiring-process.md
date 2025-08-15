@@ -5,6 +5,8 @@ author: "OfficeTwo Team"
 excerpt: "Discover how OfficeTwo’s step-by-step hiring process helps U.S. companies build remote teams in Argentina—from sourcing top talent to full-service onboarding and retention support."
 ---
 
+![The Complete Guide to Our Hiring Process: How OfficeTwo Builds Your International Team](/images/complete-guide-hiring-process.jpg)
+
 # The Complete Guide to Our Hiring Process: How OfficeTwo Builds Your International Team
 
 Hiring internationally doesn’t have to be complicated. At OfficeTwo, we’ve built a streamlined process that helps you find top-tier talent in Buenos Aires while eliminating the headaches of remote team setup, compliance, and onboarding.  

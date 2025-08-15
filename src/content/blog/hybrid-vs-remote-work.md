@@ -5,6 +5,8 @@ author: "OfficeTwo Team"
 excerpt: "Explore the pros and cons of hybrid vs remote work models, and learn how Office Two supports international teams with the right structure to scale efficiently."
 ---
 
+![Hybrid vs Remote Work: Which Model Works Best for Global Teams?](/images/hybrid-vs-remote-work.jpg)
+
 # Hybrid vs Remote Work: Which Model Works Best for Global Teams?
 
 As remote work continues to evolve, many companies are rethinking how to structure their international teams. The debate between **hybrid vs remote work** is more relevant than ever—especially for U.S. businesses expanding into Latin America.  

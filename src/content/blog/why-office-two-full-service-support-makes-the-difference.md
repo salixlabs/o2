@@ -6,6 +6,8 @@ excerpt: "Still deciding? Discover how Office Two’s full-service support handl
 canonical: officetwo.com/blog/why-office-two-full-service-support-makes-the-difference
 ---
 
+![Maximizing Your Investment: Why Office Two’s Full-Service Support Makes the Difference](/images/why-office-two-full‑service-support-makes-the-difference.png)
+
 # Maximizing Your Investment: Why Office Two’s Full-Service Support Makes the Difference
 
 If you’re exploring global hiring, you’re probably asking yourself:  

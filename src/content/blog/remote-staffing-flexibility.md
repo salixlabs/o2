@@ -5,6 +5,8 @@ author: "OfficeTwo Team"
 excerpt: "Discover how Office Two’s no-minimum model gives you remote staffing flexibility—start small, test roles, and scale when you’re ready."
 ---
 
+![Remote Staffing Flexibility: Start Small, Scale Smart](/images/remote-staffing-flexibility.png)
+
 # Remote Staffing Flexibility: Start Small, Scale Smart
 
 Modern businesses thrive on speed and adaptability. At Office Two, our remote staffing flexibility approach allows you to build and grow a team at your own pace—without upfront commitments or rigid hiring models.
