@@ -1,17 +1,12 @@
-// @ts-check
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
-import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://salixlabs.github.io/officetwo/',
-  adapter: node({ mode: "standalone" }),
-  output: 'server',
-  server: {
-    host: true,
-  },
+  base: '/officetwo',
+  output: 'static',
   vite: {
     plugins: [tailwindcss(), mdx()],
   },
