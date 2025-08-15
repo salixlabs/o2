@@ -6,7 +6,6 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   site: 'https://salixlabs.github.io/officetwo/',
   base: '/officetwo',
-  output: 'static',
   vite: {
     plugins: [tailwindcss(), mdx()],
   },
